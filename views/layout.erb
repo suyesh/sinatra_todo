@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="eng">
+<head>
+	<meta charset="utf8">
+	<title><%= @title + '|Todo'%></title>
+	<link href="/reset.css" rel="stylesheet">
+	<link href="/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1><a href="/">Todo</a></h1>
+			<h2>"Todo Sinatra"</h2>
+		</hgroup>
+	</header>
+	<div id="main">
+		<%=yield%>
+	</div>
+	<footer>
+		<p><small>An app for remembering <a href="http://twitter.com/fatfroglabs">by Suyesh</a></small></p>
+	</footer>
+</body>
+</html>
